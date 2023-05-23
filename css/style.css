@@ -1,0 +1,68 @@
+.Header {
+    padding: 8px;
+    background-color: #240046;
+    color: #9D4EDD;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+}
+
+.Navigation {
+    color:#240046;
+    font-family: 'Lato', sans-serif;
+}
+
+.Navigation ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.Navigation li {
+    display: inline-block;
+    padding: 8px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.Hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heroimage1.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.AboutMe {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.Projects {
+    color: #240046;
+    font-family: 'Lato', sans-serif;
+}
+
+.Project1 {
+    
+}
+
+.Project2 {
+    
+}
+
+.Project3 {
+    
+}
+
+.Contact {
+    color: #240046;
+    font-family: 'Lato', sans-serif;
+}
