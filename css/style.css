@@ -27,7 +27,7 @@ body, html {
 }
 
 .Hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/heroimage1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/heroimage1.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,21 +48,51 @@ body, html {
 .Projects {
     color: #240046;
     font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin: auto;
+}
+
+.ProjectPhoto {
+    height: 250px;
+    width: 204px;
+    border: 1px solid #240046;
+}
+
+.ProjectTitle {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #240046;
+    width: 180px;
 }
 
 .Project1 {
-    
+    display: inline-block;
+    margin: auto;
 }
 
 .Project2 {
-    
+    display: inline-block;
+    margin: auto;
 }
 
 .Project3 {
-    
+    display: inline-block;
+    margin: auto;
 }
 
 .Contact {
     color: #240046;
     font-family: 'Lato', sans-serif;
+}
+
+.Contact ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Contact li {
+    display: inline-block;
+    padding: 25px;
 }
